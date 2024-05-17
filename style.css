@@ -1,0 +1,93 @@
+#m{
+    position: absolute;
+    height: 130%;
+    width: 20%;
+    right: 80%;
+    background-color: rgb(241, 241, 241);
+    display: none;
+    z-index: 30;
+}
+.x{
+    position: absolute;
+    top: 1px;
+    left: 335px;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(188, 197, 197);
+    border-radius: 10px;
+    outline-style:none;
+    border: none;
+    width: 40;
+    height: 20;
+}
+body{
+    background-color: rgb(188, 197, 197);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#but{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    outline-style:none;
+    border: none;
+    width: 40;
+    height: 20;
+}
+.center{
+    width: 900px;
+    height: 500px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 550px;
+}
+.products{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 250px;
+    border-radius: 12px;
+    position: relative;
+    padding: 8px;
+    box-shadow: 4px 14px 48px -7px rgba(135,132,130,1);
+}
+.im{
+    height:230px ;
+    width:220px ;
+    object-fit: contain;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+}
+.title{
+        text-align: center;
+      margin: 0;
+      padding-top: 0px;
+}
+.p1{
+    color: brown;
+   
+}
+img{
+    height: 16px;
+    width: 16px;
+}
+.stars{
+    display: block;
+    margin-top: -99px;
+
+}
+.heart{
+    position: absolute;
+    height: 19px;
+    width: 19px;
+    top: 20px;
+    left: 230px;
+}
