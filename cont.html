@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .contimg {
+        height: 500px;
+        width: 500px;
+        padding: 20px;
+    }
+
+    .contdiv1 {
+        background-color: white;
+        height: 550px;
+        width: 550px;
+
+    }
+
+    .contdiv2 {
+        height: 200px;
+        width: 600px;
+        background-color: white;
+        padding: 15px;
+    }
+
+    .ddiv {
+        display: flex;
+        justify-content: space-around;
+    }
+
+     .contdiv3{
+    background-color: white;
+    height:310px ;
+    width:630px ; 
+   }   
+    .contp {
+        font-size: 19px;
+    }
+    .div23{
+        
+    }
+    ul{
+        font-size: 20px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav panel start -->
+    <div id="m" style="display:block;">
+        <div><button><a href="index.html">menu</a></button></div>
+        <div><button><a href="product.html">goods</a></button></div>
+        <div><button><a href="shares.html">shares</a></button></div>
+        <div><button><a href="cont.html">contacts</a></button></div>
+        <div class="x">
+            <button onclick='document.getElementById("m").style.display="none"'>X</button>
+        </div>
+    </div>
+    <!-- nav panel end -->
+    <button id="but" onclick='document.getElementById("m").style.display="block"'>menu</button>
+    <div class="ddiv">
+        <div class="contdiv1">
+            <img class="contimg" src="/img/images.jpg">
+        </div>
+        <div class="div23">
+        <div class="contdiv2">
+            <p class="contp">Сти́вен Пол (Стив) Джобс (англ. Steven Paul (Steve) Jobs, имя при рождении — Абдул Латиф
+                Джандали[5]; 24 февраля 1955, Сан-Франциско, Калифорния, США — 5 октября 2011, Пало-Алто, Санта-Клара,
+                Калифорния, США) — американский предприниматель, изобретатель и промышленный дизайнер, получивший
+                широкое признание в качестве пионера эры информационных технологий[6][7]. Один из основателей,
+                председатель совета директоров и CEO корпорации Apple. Один из основателей и CEO киностудии Pixar.</p>
+        </div>
+        <div class="contdiv3">
+            <h1 class="conth">Связь с нами</h1>
+          <ul>
+            <li>Горячая линия на связи каждый день с 8:00 до 23:00</li>
+            <li>Чат поддержка на связи круглосуточно</li>
+          </ul>
+    </div>
+    </div>
+</body>
+
+</html>
