@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    h1{
+        color: rgb(0, 0, 0);
+    }
+    .st{
+        text-align: center;
+        font-size: 80px;
+    }
+    .poisk{
+        height:50px;
+        width: 530px;
+        background-color: white;
+        border-radius: 50px;
+  margin-left: 80px; 
+ 
+    }
+    .p19{
+        color: rgb(90, 85, 85);
+        position: absolute;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .img11{
+        height:25px ;
+        width:25px ;
+        position: absolute;
+        margin-left: 480px;
+        margin-top: 10px;
+    }
+.obj{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 700px;
+    margin-left: 500px;
+    padding: 15px;
+}
+.obj2{
+    background-color: rgb(165, 163, 163);
+    height: 400px;
+    width: 600px;
+    margin-left: 400px;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="m" style="display:block;">
+        <div><button><a href="/menu.html">menu</a></button></div>
+        <div><button><a href="index.html">about</a></button></div>
+        <div><button><a href="product.html">goods</a></button></div>
+        <div><button><a href="shares.html">shares</a></button></div>
+        <div><button><a href="cont.html">contacts</a></button></div>
+        <div class="x">
+            <button onclick='document.getElementById("m").style.display="none"'>X</button>
+        </div>
+    </div>
+    <button id="but" onclick='document.getElementById("m").style.display="block"'>menu</button>
+    </div>
+    <div class="obj">
+        <div class="obj2">
+    <h1>Добро пожаловать в iTech Haven!!!</h1>
+    <p class="st">↓↓↓</p>
+    <div class="poisk">
+        <p class="p19">Поиск</p>
+        <img class="img11" src="/img/OIP.jpg">
+    </div>
+    </div>
+</div>
+    </body>
+    </html>
