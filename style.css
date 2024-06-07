@@ -1,6 +1,7 @@
 body{
     background-color: rgb(188, 197, 197);
     margin: 0;
+    
 }
 #m{
     position: absolute;
@@ -103,6 +104,8 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap:30px;
+    justify-content: center;
+   
 }
 .sharesp{
     text-align: center;
@@ -127,6 +130,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap:30px;
+    justify-content: center;
 }
 .sharesimg{
     width: 130px;
@@ -144,3 +148,12 @@ img{
 h1{
     text-align: center;
 }
+.korzina{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top:9px ;
+    margin-left: 1320px;
+    border-radius: 50px;
+}
+
